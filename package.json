@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "ex1": "node ex1.js",
+    "ex1": "node day1/day1.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
