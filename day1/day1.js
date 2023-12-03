@@ -16,7 +16,7 @@ const txtToNumber = (txt) => {
   }
 }
 
-fs.readFile('day1.txt', 'utf8', (err, data) => {
+fs.readFile('day1/day1.txt', 'utf8', (err, data) => {
   const lines = data.split('\n');
   console.log(lines.map(line => {
       let digits = line.matchAll(/(?=([0-9]|zero|one|two|three|four|five|six|seven|eight|nine))/g);
