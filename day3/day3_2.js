@@ -25,7 +25,7 @@ fs.readFile('day3/day3.txt', 'utf8', (err, data) => {
     lines.forEach((line, lineIndex) => {
         let numbersRegex = line.matchAll(/\d+/g);
         numbersRegex = Array.from(numbersRegex);
-        const validNumbers = numbersRegex.forEach(numberRegex => {
+        numbersRegex.forEach(numberRegex => {
             const number = numberRegex[0];
             const index = numberRegex.index;
             const startRange = Math.max(index - 1, 0);
@@ -42,7 +42,6 @@ fs.readFile('day3/day3.txt', 'utf8', (err, data) => {
             }
         });
     });
-    //console.log(gears);
     console.log([...gears.values()].reduce((sum, gear) => {
         if (gear.length === 2) {
             return sum + gear[0] * gear[1];
