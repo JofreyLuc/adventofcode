@@ -9,7 +9,9 @@
     "day3": "node day3/day3.js",
     "day3_2": "node day3/day3_2.js",
     "day4": "node day4/day4.js",
-    "day4_2": "node day4/day4_2.js"
+    "day4_2": "node day4/day4_2.js",
+    "day5": "node day5/day5.js",
+    "day5_2": "node day5/day5_2.js"
   },
   "author": "",
   "license": "ISC"
